@@ -22,7 +22,7 @@ last_modified_at: 2022-07-24
 >
 > ## 🗂️네트워크 모델의 종류
 >
-> ### 🗒️TCP/IP Model
+> ### 🗒️OSI 7 Model
 >
 > ### ![osi7](../../assets/img/osi7.png)
 
