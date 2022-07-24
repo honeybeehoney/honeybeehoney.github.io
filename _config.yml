@@ -75,7 +75,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  "/assets/images/고양이.gif" # Open Graph/Twitter default site image
+og_image                 :  "/assets/images/배경사진4.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -116,7 +116,7 @@ author:
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    
+ 
 
 # Site Footer
 footer:
@@ -283,3 +283,5 @@ defaults:
       related: true
       mathjax: true
       sidebar_main: true
+
+ 
