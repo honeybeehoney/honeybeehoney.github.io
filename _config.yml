@@ -283,5 +283,6 @@ defaults:
       related: true
       mathjax: true
       sidebar_main: true
+      toc: true
 
  
