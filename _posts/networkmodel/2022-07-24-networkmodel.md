@@ -38,7 +38,7 @@ last_modified_at: 2022-07-24
 >
 > ![tcp](../../assets/img/tcp.png)
 >
->    ● 실제 통신에 사용되는 모델
+> ● 실제 통신에 사용되는 모델
 >
 > ![네트워크모델](../../assets/img/네트워크모델.png)
 >
