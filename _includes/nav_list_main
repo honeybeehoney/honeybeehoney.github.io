@@ -195,15 +195,15 @@
         <span class="nav__sub-title">DNS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "1" %}
-                        <li><a href="/categories/1" class="">1 ({{category[1].size}})</a></li>
+                    {% if category[0] == "linux_dns" %}
+                        <li><a href="/categories/linux_dns" class="">Linux ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "2" %}
-                        <li><a href="/categories/2" class="">2 ({{category[1].size}})</a></li>
+                    {% if category[0] == "linux_windows" %}
+                        <li><a href="/categories/linux_windows" class="">Windows ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
