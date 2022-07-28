@@ -44,6 +44,20 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "nat" %}
+                        <li><a href="/categories/nat" class="">NAT({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DNS" %}
+                        <li><a href="/categories/DNS" class="">DNS({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
            
 
         <span class="nav__sub-title">Window</span>
@@ -192,18 +206,18 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">DNS</span>
+        <span class="nav__sub-title">NUll</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "linux_dns" %}
-                        <li><a href="/categories/linux_dns" class="">Linux ({{category[1].size}})</a></li>
+                    {% if category[0] == "1" %}
+                        <li><a href="/categories/linux_dns" class="">1 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "linux_windows" %}
-                        <li><a href="/categories/linux_windows" class="">Windows ({{category[1].size}})</a></li>
+                    {% if category[0] == "2" %}
+                        <li><a href="/categories/linux_windows" class="">2 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -228,6 +242,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
+            
       </li>
       <li>	
             <br>      

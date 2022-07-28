@@ -1,7 +1,7 @@
 ---
-title: "Network"
+title: "DNS"
 layout: archive
-permalink: categories/linux_dns
+permalink: categories/DNS
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.linux_dns %}
+{% assign posts = site.categories.DNS %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
