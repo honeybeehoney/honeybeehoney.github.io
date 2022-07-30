@@ -18,8 +18,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "routing" %}
-                        <li><a href="/categories/routing" class="">Routing({{category[1].size}})</a></li>
+                    {% if category[0] == "router" %}
+                        <li><a href="/categories/router" class="">Router({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -55,6 +55,13 @@
                 {% for category in site.categories %}
                     {% if category[0] == "DNS" %}
                         <li><a href="/categories/DNS" class="">DNS({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DHCP" %}
+                        <li><a href="/categories/DHCP" class="">DHCP({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
