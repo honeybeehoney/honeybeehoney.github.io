@@ -1,5 +1,5 @@
 ---
-title:  "Static Routing" 
+title:  "Router Interface" 
 
 categories:
   - router
@@ -11,13 +11,6 @@ toc: true
 date: 2022-08-14
 last_modified_at: 2022-08-14
 ---
-
-## 🗂️Static Routing
-
-- Static
-  - 관리자가 직접 경로를 지정해 설정해 주는 방식
-  - 관리자의 의도대로 세부 경로 설정이 가능
-  - 부하가 적으나 문제 발생 시 실시간 대응이 어려움
 
 ## 🗂️Packet Tracer를 이용한 실습
 
@@ -49,7 +42,7 @@ last_modified_at: 2022-08-14
 
 > 나머지 컴퓨터에도 해당하는 주소를 모두 입력한다.
 
-## 🗂️Static Routing 설정
+## 🗂️Interface 설정
 
 - 설정할 interface에 접근하여 주소입력 및 통신연결하기
 
@@ -100,7 +93,7 @@ Router(config-if)#no shutdown
 
 > 나머지 pc들도 각자 확인해보자
 
-## 🗂️interface  수정, 설정 삭제
+## 🗂️Interface  수정, 설정 삭제
 
 - 수정
 
