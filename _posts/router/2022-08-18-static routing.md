@@ -4,7 +4,7 @@ title:  "Static Routing"
 categories:
   - router
 tags:
-  - [router,routing]
+  - [router,routing,static]
 
 toc: true
 
@@ -24,7 +24,7 @@ last_modified_at: 2022-08-18
 
 ## 🗂️Packet Tracer를 이용한 실습
 
-- 구성도
+- <span style="color:blue"><b>구성도</b></span>
 
   ![화면 캡처 2022-08-19 120305](../../assets/img/화면 캡처 2022-08-19 120305.png)
 
@@ -32,7 +32,7 @@ last_modified_at: 2022-08-18
 
 
 
-- pc 주소 설정
+- <span style="color:blue"><b>pc 주소 설정</b></span>
 
 ![화면 캡처 2022-08-15 194238](../../assets/img/화면 캡처 2022-08-15 194238-16610599158171.png)
 
@@ -40,7 +40,7 @@ last_modified_at: 2022-08-18
 
 > 나머지 pc들도 동일하게 주소 설정한다
 
-- Router 설정
+- <span style="color:blue"><b>Router 설정</b></span>
 
   - 왼쪽 Router
 
@@ -102,7 +102,7 @@ last_modified_at: 2022-08-18
 
     ![화면 캡처 2022-08-21 170331](../../assets/img/화면 캡처 2022-08-21 170331.png)
 
-- Routing 설정
+- <span style="color:blue"><b>Routing 설정</b></span>
 
   - 통신 확인
 
@@ -146,20 +146,20 @@ last_modified_at: 2022-08-18
 
   
 
-## Default route
+## 🗂️Default route
 
--  Default Routing 
+-  <span style="color:blue"><b>Default Routing </b></span>
   - Connect 를 제외한 모든 네트워크를 한 방향으로 보내도록 설정
   - 하나의 네트워크에서 외부의 네트워크로 나가고 들어오는 경로가 오직 하나 뿐인 경우 설정 -> stub network
   - 전체 네트워크(0.0.0.0/0) 설정
 
-- 구성도
+- <span style="color:blue"><b>구성도</b></span>
 
 ![화면 캡처 2022-08-21 205712](../../assets/img/화면 캡처 2022-08-21 205712.png)
 
 > default route 설정을 하지 않으면 R1에서 route 설정을 하나 하나 전부 해야 하기때문에 번거롭다
 
-- Default Routing 설정하기
+- <span style="color:blue"><b>Default Routing 설정하기</b></span>
 
   - R1 
 
@@ -170,7 +170,7 @@ last_modified_at: 2022-08-18
 
 ![화면 캡처 2022-08-21 211058](../../assets/img/화면 캡처 2022-08-21 211058.png)
 
-- 통신확인
+- <span style="color:blue"><b>통신확인</b></span>
 
   - 나머지 routing 설정은 마저 끝낸후 통신확인
 
@@ -178,9 +178,9 @@ last_modified_at: 2022-08-18
 
     > R1에서 default routing 한번만 설정해도 전부 통신이 잘 되는것을 확인 할 수 있다 
 
-## Loopback interface
+## 🗂️Loopback interface
 
-- Loopback interface
+- <span style="color:blue"><b>Loopback interface</b></span>
 
   - 여러개의 라우터를 동시에 테스트 할때 많이 사용
 
@@ -197,3 +197,4 @@ last_modified_at: 2022-08-18
 <br>
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
+

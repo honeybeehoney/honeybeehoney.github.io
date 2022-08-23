@@ -14,7 +14,7 @@ last_modified_at: 2022-08-14
 
 ## 🗂️Packet Tracer를 이용한 실습
 
-- 구성도
+- <span style="color:blue"><b>구성도</b></span>
 
 ![Untitled (1)](../../assets/img/Untitled (1)-16605575660291.png)
 
@@ -59,7 +59,7 @@ Router(config-if)#no shutdown
 
 ![화면 캡처 2022-08-16 185306](../../assets/img/화면 캡처 2022-08-16 185306.png)
 
-- 연결 확인
+- <span style="color:blue"><b>연결 확인</b></span>
 
   - ping test
 
@@ -95,7 +95,7 @@ Router(config-if)#no shutdown
 
 ## 🗂️Interface  수정, 설정 삭제
 
-- 수정
+- <span style="color:blue"><b>수정</b></span>
 
   - 수정은 덮어씌우면 된다
 
@@ -109,7 +109,7 @@ Router(config-if)#no shutdown
 
 > 변경된 것 확인
 
-- 삭제
+- <span style="color:blue"><b>삭제</b></span>
 
   ```
   Router(config)#interface fastEthernet 0/0
