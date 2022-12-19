@@ -2,7 +2,7 @@
 title:  "Disk management : windows "
 
 categories:
-  - disk
+  - centos
 tags:
   - [windows,disk]
 

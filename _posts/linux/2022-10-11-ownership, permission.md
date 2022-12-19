@@ -2,7 +2,7 @@
 title:  "ownership, permission" 
 
 categories:
-  - ownership, permission
+  - centos
 tags:
   - [linux,ownership]
 

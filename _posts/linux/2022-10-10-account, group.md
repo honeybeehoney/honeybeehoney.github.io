@@ -2,7 +2,7 @@
 title:  "account, group" 
 
 categories:
-  - account, group
+  - centos
 tags:
   - [linux,account, group]
 

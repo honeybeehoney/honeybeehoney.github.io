@@ -2,7 +2,7 @@
 title:  "scheduling management"
 
 categories:
-  - scheduling
+  - centos
 tags:
   - [linux,scheduling]
 

@@ -2,7 +2,7 @@
 title:  "Disk management : Linux"
 
 categories:
-  - disk
+  - centos
 tags:
   - [linux,disk]
 

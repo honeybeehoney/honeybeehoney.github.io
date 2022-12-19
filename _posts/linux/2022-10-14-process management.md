@@ -2,7 +2,7 @@
 title:  "process management"
 
 categories:
-  - process
+  - centos
 tags:
   - [linux,process]
 
