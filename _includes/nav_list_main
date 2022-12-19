@@ -19,60 +19,11 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "router" %}
-                        <li><a href="/categories/router" class="">Router({{category[1].size}})</a></li>
+                        <li><a href="/categories/router" class="">Routing({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "acl" %}
-                        <li><a href="/categories/acl" class="">ACL({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "nat" %}
-                        <li><a href="/categories/nat" class="">NAT({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "vlan" %}
-                        <li><a href="/categories/vlan" class="">VLAN({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "nat" %}
-                        <li><a href="/categories/nat" class="">NAT({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "DNS" %}
-                        <li><a href="/categories/DNS" class="">DNS({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "DHCP" %}
-                        <li><a href="/categories/DHCP" class="">DHCP({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "FTP" %}
-                        <li><a href="/categories/FTP" class="">FTP({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-           
+
 
         <span class="nav__sub-title">Window</span>
             <ul>
@@ -111,11 +62,11 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Linux1</span>
+        <span class="nav__sub-title">Linux</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "command1" %}
-                        <li><a href="/categories/command1" class="">명령어1 ({{category[1].size}})</a></li>
+                    {% if category[0] == "command" %}
+                        <li><a href="/categories/command1" class="">명령어 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -169,7 +120,7 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">LINUX2</span>
+        <span class="nav__sub-title">모의해킹</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "process" %}
