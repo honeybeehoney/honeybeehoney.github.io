@@ -4,7 +4,7 @@ title:  "process management"
 categories:
   - centos
 tags:
-  - [linux,process]
+  - [linux,process,centos]
 
 toc: true
 

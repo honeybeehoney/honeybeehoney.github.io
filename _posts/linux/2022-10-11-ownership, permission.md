@@ -4,7 +4,7 @@ title:  "ownership, permission"
 categories:
   - centos
 tags:
-  - [linux,ownership]
+  - [linux,ownership,centos]
 
 toc: true
 

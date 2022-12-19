@@ -4,7 +4,7 @@ title:  "scheduling management"
 categories:
   - centos
 tags:
-  - [linux,scheduling]
+  - [linux,scheduling,centos]
 
 toc: true
 

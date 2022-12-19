@@ -4,7 +4,7 @@ title:  "account, group"
 categories:
   - centos
 tags:
-  - [linux,account, group]
+  - [linux,account, group,centos]
 
 toc: true
 

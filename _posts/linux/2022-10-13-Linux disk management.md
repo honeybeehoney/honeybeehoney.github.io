@@ -4,7 +4,7 @@ title:  "Disk management : Linux"
 categories:
   - centos
 tags:
-  - [linux,disk]
+  - [linux,disk,centos]
 
 toc: true
 

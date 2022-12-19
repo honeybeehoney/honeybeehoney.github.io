@@ -1,5 +1,5 @@
 ---
-title: "centos"
+title: "CentOS"
 layout: archive
 permalink: categories/centos
 author_profile: true
