@@ -25,7 +25,7 @@
             </ul>
 
 
-        <span class="nav__sub-title">Window</span>
+        <span class="nav__sub-title">Windows</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "a" %}
@@ -65,8 +65,8 @@
         <span class="nav__sub-title">Linux</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "command" %}
-                        <li><a href="/categories/command1" class="">명령어 ({{category[1].size}})</a></li>
+                    {% if category[0] == "centos" %}
+                        <li><a href="/categories/command1" class="">CentOS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
