@@ -356,7 +356,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "로그분석" %}
+                    {% if category[0] == "log" %}
                         <li><a href="/categories/log" class="">로그분석 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
