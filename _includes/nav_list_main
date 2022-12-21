@@ -290,8 +290,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "정보수집" %}
-                        <li><a href="/categories/정보수집" class="">정보수집 ({{category[1].size}})</a></li>
+                    {% if category[0] == "ic" %}
+                        <li><a href="/categories/ic" class="">정보수집 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -340,8 +340,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "보안장비운용" %}
-                        <li><a href="/categories/보안장비운용" class="">보안장비운용({{category[1].size}})</a></li>
+                    {% if category[0] == "securitysolution" %}
+                        <li><a href="/categories/securitysolution" class="">보안장비운용({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

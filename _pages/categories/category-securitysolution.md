@@ -1,7 +1,7 @@
 ---
-title: "정보수집"
+title: "보안장비솔루션"
 layout: archive
-permalink: categories/ic
+permalink: categories/securitysolution
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.ic %}
+{% assign posts = site.categories.securitysolution %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
