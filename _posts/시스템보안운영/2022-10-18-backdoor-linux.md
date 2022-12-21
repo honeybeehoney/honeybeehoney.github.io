@@ -2,7 +2,7 @@
 title:  "backdoor-linux" 
 
 categories:
-  - 악성코드
+  - malware
 tags:
   - [backdoor,linux]
 
