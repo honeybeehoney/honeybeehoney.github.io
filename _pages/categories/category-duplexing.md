@@ -1,7 +1,7 @@
 ---
-title: "보안장비운용"
+title: "이중화"
 layout: archive
-permalink: categories/securitysolution
+permalink: categories/duplexing
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.securitysolution %}
+{% assign posts = site.categories.duplexing %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

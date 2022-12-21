@@ -312,6 +312,13 @@
             <span class="nav__sub-title">보안장비운용</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "ids" %}
+                        <li><a href="/categories/ids" class="">IDS({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "utm" %}
                         <li><a href="/categories/utm" class="">UTM({{category[1].size}})</a></li>
                     {% endif %}
@@ -333,8 +340,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "이중화" %}
-                        <li><a href="/categories/이중화" class="">이중화 ({{category[1].size}})</a></li>
+                    {% if category[0] == "duplexing" %}
+                        <li><a href="/categories/duplexing" class="">이중화 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
