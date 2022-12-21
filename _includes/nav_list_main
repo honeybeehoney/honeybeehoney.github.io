@@ -350,35 +350,35 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "rsyslog" %}
-                        <li><a href="/categories/보안로그분석" class="">rsyslog({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "weblog" %}
-                        <li><a href="/categories/보안로그분석" class="">웹로그분석 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "logrotate" %}
-                        <li><a href="/categories/보안로그분석" class="">logrotate ({{category[1].size}})</a></li>
+                        <li><a href="/categories/rsyslog" class="">rsyslog({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "로그분석" %}
-                        <li><a href="/categories/보안로그분석" class="">네트워크 공격 로그 분석  ({{category[1].size}})</a></li>
+                        <li><a href="/categories/로그분석" class="">웹로그분석 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "보안로그" %}
-                        <li><a href="/categories/보안로그분석" class="">보안 로그 분석 ({{category[1].size}})</a></li>
+                    {% if category[0] == "logrotate" %}
+                        <li><a href="/categories/logrotate" class="">logrotate ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "로그분석" %}
+                        <li><a href="/categories/로그분석 " class="">네트워크 공격 로그 분석  ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "로그분석" %}
+                        <li><a href="/categories/로그분석" class="">보안 로그 분석 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

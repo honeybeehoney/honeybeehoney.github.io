@@ -1,7 +1,7 @@
 ---
-title: "보안로그분석"
+title: "logrotate"
 layout: archive
-permalink: categories/보안로그분석
+permalink: categorie/logrotate
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.보안로그분석 %}
+{% assign posts = site.categories.logrotate %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
