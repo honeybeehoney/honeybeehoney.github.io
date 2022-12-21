@@ -144,8 +144,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ddos&drdos" %}
-                        <li><a href="/categories/ddos&drdos " class="">DDOS&DRDOS  ({{category[1].size}})</a></li>
+                    {% if category[0] == "ddos and drdos" %}
+                        <li><a href="/categories/ddos and drdos " class="">DDOS&DRDOS  ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

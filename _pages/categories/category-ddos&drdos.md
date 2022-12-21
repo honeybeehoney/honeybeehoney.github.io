@@ -1,5 +1,5 @@
 ---
-title: "DDOS & DRDOS"
+title: "DDOS and DRDOS"
 layout: archive
 permalink: categories/ddos&drdos
 author_profile: true
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.ddos&drdos %}
+{% assign posts = site.categories.ddos and drdos %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
