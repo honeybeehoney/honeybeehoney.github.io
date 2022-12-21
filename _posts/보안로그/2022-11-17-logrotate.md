@@ -2,7 +2,7 @@
 title:  "logrotate" 
 
 categories:
-  - 보안로그분석
+  - logrotate
 tags:
   - [보안,log]
 

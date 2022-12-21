@@ -208,7 +208,7 @@
                 {% endfor %}
             </ul>
 
-            <span class="nav__sub-title">모의</span>
+            <span class="nav__sub-title"></span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "process" %}
@@ -377,8 +377,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "시각화" %}
-                        <li><a href="/categories/시각화" class="">로그 시각화 ({{category[1].size}})</a></li>
+                    {% if category[0] == "보안로그" %}
+                        <li><a href="/categories/보안로그" class="">보안 로그 분석 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
