@@ -2,9 +2,9 @@
 title:  "Port mirroring" 
 
 categories:
-  - Dos
+  - mirroring
 tags:
-  - [dos]
+  - [port mirroring]
 
 toc: true
 
