@@ -300,7 +300,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mirroring" %}
-                        <li><a href="/categories/mirroring" class="">보안솔루션 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/mirroring" class="">Port mirroing ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
