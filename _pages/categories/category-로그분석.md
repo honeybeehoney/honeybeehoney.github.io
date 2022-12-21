@@ -1,7 +1,7 @@
 ---
 title: "보안로그분석"
 layout: archive
-permalink: categories/로그분석
+permalink: categories/log
 author_profile: true
 sidebar_main: true
 ---
