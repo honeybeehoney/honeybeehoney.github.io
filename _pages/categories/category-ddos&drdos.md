@@ -1,7 +1,7 @@
 ---
-title: "Routing"
+title: "DDOS & DRDOS"
 layout: archive
-permalink: categories/router
+permalink: categories/ddos&drdos
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.router %}
+{% assign posts = site.categories.ddos&drdos %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

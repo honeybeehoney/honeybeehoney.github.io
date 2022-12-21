@@ -1,7 +1,7 @@
 ---
-title: "Routing"
+title: "DHCP"
 layout: archive
-permalink: categories/router
+permalink: categories/sw_dhcp
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.router %}
+{% assign posts = site.categories.sw_dhcp %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

@@ -1,7 +1,7 @@
 ---
-title: "Routing"
+title: "보안로그분석"
 layout: archive
-permalink: categories/router
+permalink: categories/보안로그분석
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.router %}
+{% assign posts = site.categories.보안로그분석 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

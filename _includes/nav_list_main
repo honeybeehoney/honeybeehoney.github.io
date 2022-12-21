@@ -66,7 +66,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "centos" %}
-                        <li><a href="/categories/command1" class="">CentOS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/centos" class="">CentOS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -123,6 +123,94 @@
         <span class="nav__sub-title">모의해킹</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "sniffing" %}
+                        <li><a href="/categories/sniffing" class="">Sniffing ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "spoofing" %}
+                        <li><a href="/categories/spoofing" class="">spoofing ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "dos" %}
+                        <li><a href="/categories/dos" class="">DOS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ddos&drdos" %}
+                        <li><a href="/categories/ddos&drdos " class="">DDOS&DRDOS  ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "portmirroing" %}
+                        <li><a href="/categories/portmirroing" class="">보안솔루션 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "routinglinux" %}
+                        <li><a href="/categories/routinglinux" class="">Routing Linux ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "firewalllinux" %}
+                        <li><a href="/categories/firewalllinux" class="">Firewall Linux ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        
+        <span class="nav__sub-title">SW개발보안구축</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "sw_dns" %}
+                        <li><a href="/categories/sw_dns" class="">DNS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "sw_dhcp" %}
+                        <li><a href="/categories/sw_dhcp" class="">DHCP ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "sw_ftp" %}
+                        <li><a href="/categories/sw_ftp" class="">FTP ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "4" %}
+                        <li><a href="/categories/4" class="">4({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "5" %}
+                        <li><a href="/categories/5" class="">5 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <span class="nav__sub-title">모의</span>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "process" %}
                         <li><a href="/categories/process" class="">Process management({{category[1].size}})</a></li>
                     {% endif %}
@@ -171,44 +259,140 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">NUll</span>
+            <span class="nav__sub-title">시스템/어플리케이션 보안 운영</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "1" %}
-                        <li><a href="/categories/linux_dns" class="">1 ({{category[1].size}})</a></li>
+                    {% if category[0] == "악성코드" %}
+                        <li><a href="/categories/악성코드" class="">악성코드({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "2" %}
-                        <li><a href="/categories/linux_windows" class="">2 ({{category[1].size}})</a></li>
+                    {% if category[0] == "pam" %}
+                        <li><a href="/categories/pam" class="">PAM ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "3" %}
-                        <li><a href="/categories/3" class="">3({{category[1].size}})</a></li>
+                    {% if category[0] == "접근통제" %}
+                        <li><a href="/categories/접근통제" class="">접근통제모델 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "4" %}
-                        <li><a href="/categories/4" class="">4({{category[1].size}})</a></li>
+                    {% if category[0] == "webhacking" %}
+                        <li><a href="/categories/webhacking" class="">Webhacking  ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "5" %}
-                        <li><a href="/categories/5" class="">5 ({{category[1].size}})</a></li>
+                    {% if category[0] == "정보수집" %}
+                        <li><a href="/categories/정보수집" class="">정보수집 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "appatack" %}
+                        <li><a href="/categories/appatack" class="">어플리케이션 공격 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "firewalllinux" %}
+                        <li><a href="/categories/firewalllinux" class="">Firewall Linux ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title">보안장비운용</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "utm" %}
+                        <li><a href="/categories/utm" class="">UTM({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "VPN" %}
+                        <li><a href="/categories/VPN" class="">VPN ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "lb" %}
+                        <li><a href="/categories/lb" class="">LB ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "이중화" %}
+                        <li><a href="/categories/이중화" class="">이중화 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "보안장비운용" %}
+                        <li><a href="/categories/보안장비운용" class="">보안장비운용({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+           
+            <span class="nav__sub-title">보안로그분석</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "rsyslog" %}
+                        <li><a href="/categories/rsyslog" class="">rsyslog({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "weblog" %}
+                        <li><a href="/categories/weblog" class="">웹로그분석 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "logrotate" %}
+                        <li><a href="/categories/logrotate" class="">logrotate ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "로그분석" %}
+                        <li><a href="/categories/로그분석 " class="">네트워크 공격 로그 분석  ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "시각화" %}
+                        <li><a href="/categories/시각화" class="">로그 시각화 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             
+        
+            <span class="nav__sub-title">Container</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "docker" %}
+                        <li><a href="/categories/docker" class="">Docker ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+           
       </li>
       <li>	
             <br>      
