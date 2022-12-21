@@ -1,7 +1,7 @@
 ---
 title: "logrotate"
 layout: archive
-permalink: categorie/logrotate
+permalink: categories/logrotate
 author_profile: true
 sidebar_main: true
 ---
